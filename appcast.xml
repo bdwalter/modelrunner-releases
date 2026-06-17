@@ -7,5 +7,20 @@
     <link>https://github.com/bdwalter/modelrunner-releases</link>
     <description>Most recent ModelRunner updates.</description>
     <language>en</language>
+==> appcast.xml <item> snippet (paste into your release repo's appcast.xml):
+
+        <item>
+            <title>Version 0.1.0</title>
+            <pubDate>Wed, 17 Jun 2026 19:54:53 +0000</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/bdwalter/modelrunner-releases/releases/download/v0.1.0/ModelRunner-0.1.0.dmg"
+                type="application/octet-stream"
+                sparkle:edSignature="oA14kOLzA0d2Yl/85Mk02nXYQJsC/QD8Ub7AMsD9+F/bgXFnl+mN/8kCRaHQt0kujif0GOuk9pfjpsAiqI+xBA==" length="170711036"
+            />
+        </item>
+
   </channel>
 </rss>
